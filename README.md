@@ -36,4 +36,7 @@
 
 - [ ] 项目优化博客
   - [ ] 接口的幂等性
-  - [ ] 分布式事务
+  - [X] 分布式事务
+  
+  # 项目总结
+  ![浅析分布式事务](https://gongfukangee.github.io/2019/03/22/Distributed-Transaction)
