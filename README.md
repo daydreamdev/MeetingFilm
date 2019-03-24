@@ -39,4 +39,4 @@
   - [X] 分布式事务
   
   # 项目总结
-  ![浅析分布式事务](https://gongfukangee.github.io/2019/03/22/Distributed-Transaction)
+  [浅析分布式事务](https://gongfukangee.github.io/2019/03/22/Distributed-Transaction)
