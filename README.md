@@ -39,4 +39,4 @@
   - [X] 分布式事务
   
   # 项目总结
-  [浅析分布式事务](https://gongfukangee.github.io/2019/03/22/Distributed-Transaction)
+  [浅析分布式事务](https://github.com/daydreamdev/MeetingFilm/blob/master/note/%E6%B5%85%E6%9E%90%E5%88%86%E5%B8%83%E5%BC%8F%E4%BA%8B%E5%8A%A1.md)
