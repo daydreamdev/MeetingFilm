@@ -39,5 +39,5 @@
   - [X] 分布式事务
   
   # 项目总结
-  [浅析分布式事务](https://github.com/daydreamdev/MeetingFilm/blob/master/note/%E6%B5%85%E6%9E%90%E5%88%86%E5%B8%83%E5%BC%8F%E4%BA%8B%E5%8A%A1.md)
-  [如何保证业务的幂等性](https://github.com/daydreamdev/MeetingFilm/blob/master/note/%E5%A6%82%E4%BD%95%E4%BF%9D%E8%AF%81%E4%B8%9A%E5%8A%A1%E7%9A%84%E5%B9%82%E7%AD%89%E6%80%A7.md)
+  - [浅析分布式事务](https://github.com/daydreamdev/MeetingFilm/blob/master/note/%E6%B5%85%E6%9E%90%E5%88%86%E5%B8%83%E5%BC%8F%E4%BA%8B%E5%8A%A1.md)
+  - [如何保证业务的幂等性](https://github.com/daydreamdev/MeetingFilm/blob/master/note/%E5%A6%82%E4%BD%95%E4%BF%9D%E8%AF%81%E4%B8%9A%E5%8A%A1%E7%9A%84%E5%B9%82%E7%AD%89%E6%80%A7.md)
