@@ -5,7 +5,7 @@
 ![架构图](https://github.com/daydreamdev/MeetingFilm/blob/master/pic/%E6%9E%B6%E6%9E%84%E5%9B%BE.png)
 
 # TODO
-- [ ] 项目架构图
+- [x] 项目架构图
 
 - [ ] 添加电影图片，电影简介，导演信息，演员信息
 
@@ -40,7 +40,9 @@
 - [ ] 项目优化博客
   - [x] 接口的幂等性
   - [X] 分布式事务
-  
-  # 项目总结
-  - [浅析分布式事务](https://github.com/daydreamdev/MeetingFilm/blob/master/note/%E6%B5%85%E6%9E%90%E5%88%86%E5%B8%83%E5%BC%8F%E4%BA%8B%E5%8A%A1.md)
-  - [如何保证业务的幂等性](https://github.com/daydreamdev/MeetingFilm/blob/master/note/%E5%A6%82%E4%BD%95%E4%BF%9D%E8%AF%81%E4%B8%9A%E5%8A%A1%E7%9A%84%E5%B9%82%E7%AD%89%E6%80%A7.md)
+# 项目演示
+# 架构图
+# 项目部署
+# 项目总结
+- [浅析分布式事务](https://github.com/daydreamdev/MeetingFilm/blob/master/note/%E6%B5%85%E6%9E%90%E5%88%86%E5%B8%83%E5%BC%8F%E4%BA%8B%E5%8A%A1.md)
+- [如何保证业务的幂等性](https://github.com/daydreamdev/MeetingFilm/blob/master/note/%E5%A6%82%E4%BD%95%E4%BF%9D%E8%AF%81%E4%B8%9A%E5%8A%A1%E7%9A%84%E5%B9%82%E7%AD%89%E6%80%A7.md)
