@@ -1,9 +1,6 @@
 # MeetingFilm
 电影网
 
-# 项目架构图
-![架构图](https://github.com/daydreamdev/MeetingFilm/blob/master/pic/%E6%9E%B6%E6%9E%84%E5%9B%BE.png)
-
 # TODO
 - [x] 项目架构图
 
@@ -42,6 +39,7 @@
   - [X] 分布式事务
 # 项目演示
 # 架构图
+![架构图](https://github.com/daydreamdev/MeetingFilm/blob/master/pic/%E6%9E%B6%E6%9E%84%E5%9B%BE.png)
 # 项目部署
 # 项目总结
 - [浅析分布式事务](https://github.com/daydreamdev/MeetingFilm/blob/master/note/%E6%B5%85%E6%9E%90%E5%88%86%E5%B8%83%E5%BC%8F%E4%BA%8B%E5%8A%A1.md)
