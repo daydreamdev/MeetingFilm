@@ -5,7 +5,7 @@
 - [x] 项目架构图
 - [ ] 添加电影图片，电影简介，导演信息，演员信息
 - [ ] 添加 Redis
-- [ ] Redis 伪分布式安装部署配置
+- [x] Redis 伪分布式安装部署配置
 - [ ] Zookeeper 伪分布式安装部署配置
 - [ ] MySQL 主从同步配置
 - [ ] 项目部署
@@ -35,5 +35,6 @@
 ![架构图](https://github.com/daydreamdev/MeetingFilm/blob/master/pic/%E6%9E%B6%E6%9E%84%E5%9B%BE.png)
 # 项目部署
 # 项目总结
+- [Redis 伪分布式安装部署配置](https://github.com/daydreamdev/MeetingFilm/blob/master/note/Redis%20%E4%BC%AA%E5%88%86%E5%B8%83%E5%BC%8F%E5%AE%89%E8%A3%85%E9%83%A8%E7%BD%B2%E9%85%8D%E7%BD%AE.md) 
 - [浅析分布式事务](https://github.com/daydreamdev/MeetingFilm/blob/master/note/%E6%B5%85%E6%9E%90%E5%88%86%E5%B8%83%E5%BC%8F%E4%BA%8B%E5%8A%A1.md)
 - [如何保证业务的幂等性](https://github.com/daydreamdev/MeetingFilm/blob/master/note/%E5%A6%82%E4%BD%95%E4%BF%9D%E8%AF%81%E4%B8%9A%E5%8A%A1%E7%9A%84%E5%B9%82%E7%AD%89%E6%80%A7.md)
