@@ -1,13 +1,3 @@
-<<<<<<< HEAD
----
-layout: post
-title:  "Zookeeper 伪分布式安装部署配置"
-categories: 分布式
-tags:  分布式 zookeeper 集群
-author: W.Fly
----
-=======
->>>>>>> 76ee53444c851a4fead7c84218eed2f671c0f724
 * content
 {:toc}
 zookeeper 安装、启动、集群
@@ -34,7 +24,7 @@ zookeeper 安装、启动、集群
 [root@mini1 ~]# cp -r zookeeper-3.4.5 /usr/local/zookeeper-cluster/zookeeper-2
 [root@mini1 ~]# cp -r zookeeper-3.4.5 /usr/local/zookeeper-cluster/zookeeper-3
 ```
-（5） 配置每一个 Zookeeper 的 dataDir（zoo.cfg） clientPort 分别为 2181  2182  2183
+（5） 配置每一个 Zookeeper 的 dataDir（zoo.cfg） clientPort 分别为 2181、2182、2183
 
 修改 /usr/local/zookeeper-cluster/zookeeper-1/conf/zoo.cfg
 
