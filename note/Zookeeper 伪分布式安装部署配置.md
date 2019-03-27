@@ -1,10 +1,3 @@
----
-layout: post
-title:  "Zookeeper 伪分布式安装部署配置"
-categories: 分布式
-tags:  分布式 zookeeper集群
-author: W.Fly
----
 * content
 {:toc}
 zookeeper安装、启动、集群
