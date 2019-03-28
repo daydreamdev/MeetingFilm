@@ -21,7 +21,7 @@ Mysql 中有一种日志叫做 bin 日志（二进制日志）。这个日志会
 
 ### 复制流程图
 
-![image](https://github.com/daydreamdev/MeetingFilm//master/pic/MySQL/1.png)
+![image](https://github.com/daydreamdev/MeetingFilm/raw/master/pic/MySQL/1.png)
 
 ### 复制过程
 - 主节点必须启用二进制日志，记录任何修改数据库数据的事件。
