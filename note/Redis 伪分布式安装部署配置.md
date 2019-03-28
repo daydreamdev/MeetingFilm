@@ -109,7 +109,7 @@ cd /usr/local/redis3.0/src
 ```
 - 然后配置完成
 
-![image](https://github.com/daydreamdev/MeetingFilm/raw/master/pic/redis1.png) 
+![image](https://github.com/daydreamdev/MeetingFilm/raw/master/pic/Redis/1.png) 
 
 至此 redis 集群即搭建成功！
 ### 使用 redis-cli 命令进入集群环境
