@@ -1,17 +1,10 @@
----
-layout: post
-title:  "MySQL 主从复制部署配置"
-categories: 数据库
-tags:  数据库 MySQL
-author: W.Fly
----
 * content
 {:toc}
 MySQL 安装、主从复制
 
-Mysql的主从复制至少是需要两个Mysql的服务，当然Mysql的服务是可以分布在不同的服务器上，也可以在一台服务器上启动多个服务。
+Mysql 的主从复制至少是需要两个 Mysql 的服务，当然 Mysql 的服务是可以分布在不同的服务器上，也可以在一台服务器上启动多个服务。
 
-首先确保主从服务器上的Mysql版本相同。
+首先确保主从服务器上的 Mysql 版本相同。
 
 ## 主从复制
 ### 复制功能
@@ -19,7 +12,7 @@ Mysql的主从复制至少是需要两个Mysql的服务，当然Mysql的服务�
 - 负载均衡（读）
 - 备份
 - 高可用和故障切换
-- MySQL升级测试
+- MySQL 升级测试
 
 ### 复制原理
 Mysql 中有一种日志叫做 bin 日志（二进制日志）。这个日志会记录下所有修改了数据库的 SQL 语句（insert,update,delete,ALTER TABLE,grant 等等）。
