@@ -21,7 +21,7 @@ Mysql 中有一种日志叫做 bin 日志（二进制日志）。这个日志会
 
 ### 复制流程图
 
-![image](https://github.com/wangfei910/wangfei910.github.io/raw/master/_pic/MySQL/1.png)
+![image](https://github.com/daydreamdev/MeetingFilm/raw/master/pic/MySQL/1.png)
 
 ### 复制过程
 - 主节点必须启用二进制日志，记录任何修改数据库数据的事件。
@@ -198,7 +198,7 @@ Query OK, 0 rows affected (0.04 sec)
 ```
 查看从节点的状态，如果下面两项值为 YES，则表示配置正确：
 
-![image](https://github.com/wangfei910/wangfei910.github.io/raw/master/_pic/MySQL/2.png)
+![image](https://github.com/daydreamdev/MeetingFilm/raw/master/pic/MySQL/2.png)
 
 从库正在等待主库更新数据。。。
 

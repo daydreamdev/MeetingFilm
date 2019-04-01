@@ -28,7 +28,7 @@ zookeeper 安装、启动、集群
 
 修改 /usr/local/zookeeper-cluster/zookeeper-1/conf/zoo.cfg
 
-![在这里插入图片描述](https://github.com/wangfei910/wangfei910.github.io/raw/master/_pic/Zookeeper/1.png)
+![在这里插入图片描述](https://github.com/daydreamdev/MeetingFilm/raw/master/pic/Zookeeper/1.png)
 
 修改 /usr/local/zookeeper-cluster/zookeeper-2/conf/zoo.cfg
 ```
@@ -45,7 +45,7 @@ dataDir=/usr/local/zookeeper-cluster/zookeeper-3/data
 
 （1）在每个 zookeeper 的 data 目录下创建一个 myid 文件，内容分别是 1、2、3 。这个文件就是记录每个服务器的 ID
 
- ![在这里插入图片描述](https://github.com/wangfei910/wangfei910.github.io/raw/master/_pic/Zookeeper/2.png)
+ ![在这里插入图片描述](https://github.com/daydreamdev/MeetingFilm/raw/master/pic/Zookeeper/2.png)
  
 （2）在每一个zookeeper 的 zoo.cfg配置客户端访问端口（clientPort）和集群服务器IP列表。
 ```
@@ -54,7 +54,7 @@ server.2=192.168.75.10:2882:3882
 server.3=192.168.75.10:2883:3883
 ```
 
-![在这里插入图片描述](https://github.com/wangfei910/wangfei910.github.io/raw/master/_pic/Zookeeper/3.png)
+![在这里插入图片描述](https://github.com/daydreamdev/MeetingFilm/raw/master/pic/Zookeeper/3.png)
 
 解释：server. 服务器 ID= 服务器 IP 地址：服务器之间通信端口：服务器之间投票选举端口
 
@@ -75,14 +75,14 @@ cd  /usr/local/zookeeper-cluster/zookeeper-3/bin/
 
 先查询第一个服务
 
-![在这里插入图片描述](https://github.com/wangfei910/wangfei910.github.io/raw/master/_pic/Zookeeper/4.png)
+![在这里插入图片描述](https://github.com/daydreamdev/MeetingFilm/raw/master/pic/Zookeeper/4.png)
 
 Mode 为 follower 表示是跟随者（从）
 
 再查询第二个服务 Mode 为 leader 表示是领导者（主）
 
-![在这里插入图片描述](https://github.com/wangfei910/wangfei910.github.io/raw/master/_pic/Zookeeper/5.png)
+![在这里插入图片描述](https://github.com/daydreamdev/MeetingFilm/raw/master/pic/Zookeeper/5.png)
 
 查询第三个为跟随者（从）
 
-![在这里插入图片描述](https://github.com/wangfei910/wangfei910.github.io/raw/master/_pic/Zookeeper/6.png)
+![在这里插入图片描述](https://github.com/daydreamdev/MeetingFilm/raw/master/pic/Zookeeper/6.png)
