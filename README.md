@@ -25,9 +25,9 @@
   - [x] 保证幂等性 Demo
   - [x] 缓存穿透 Demo
   - [x] 分布式限流 Demo
-- [ ] 项目优化博客
+- [x] 项目优化博客
   - [x] 接口的幂等性
-  - [X] 分布式事务
+  - [x] 分布式事务
 # 项目演示
 # 架构图
 ![架构图](https://github.com/daydreamdev/MeetingFilm/blob/master/pic/%E6%9E%B6%E6%9E%84%E5%9B%BE.png)
