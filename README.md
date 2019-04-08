@@ -21,7 +21,7 @@
   - [x] 缓存与数据库的一致性
   - [x] 限流方案
   - [x] 定时任务
-  - [ ] 分库分表
+  - [x] 分库分表
   - [x] 保证幂等性 Demo
   - [x] 缓存穿透 Demo
   - [x] 分布式限流 Demo
@@ -40,6 +40,7 @@
 - [缓存与数据库的一致性](https://github.com/daydreamdev/MeetingFilm/blob/master/note/%E7%BC%93%E5%AD%98%E4%B8%8E%E6%95%B0%E6%8D%AE%E5%BA%93%E7%9A%84%E4%B8%80%E8%87%B4%E6%80%A7.md)
 - [限流算法](https://github.com/daydreamdev/MeetingFilm/blob/master/note/%E9%99%90%E6%B5%81%E7%AE%97%E6%B3%95.md)
 - [定时任务](https://github.com/daydreamdev/MeetingFilm/blob/master/note/%E5%AE%9A%E6%97%B6%E4%BB%BB%E5%8A%A1.md)
+- [分库分表](https://github.com/daydreamdev/MeetingFilm/blob/master/note/%E5%88%86%E5%BA%93%E5%88%86%E8%A1%A8.md)
 - [浅析分布式事务](https://github.com/daydreamdev/MeetingFilm/blob/master/note/%E6%B5%85%E6%9E%90%E5%88%86%E5%B8%83%E5%BC%8F%E4%BA%8B%E5%8A%A1.md)
 - [如何保证业务的幂等性](https://github.com/daydreamdev/MeetingFilm/blob/master/note/%E5%A6%82%E4%BD%95%E4%BF%9D%E8%AF%81%E4%B8%9A%E5%8A%A1%E7%9A%84%E5%B9%82%E7%AD%89%E6%80%A7.md)
 - [布隆过滤器解决缓存穿透](https://github.com/daydreamdev/MeetingFilm/blob/master/note/%E5%B8%83%E9%9A%86%E8%BF%87%E6%BB%A4%E5%99%A8%E8%A7%A3%E5%86%B3%E7%BC%93%E5%AD%98%E7%A9%BF%E9%80%8F.md)
