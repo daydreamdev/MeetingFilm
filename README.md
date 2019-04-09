@@ -7,7 +7,7 @@
 - [x] Redis 伪分布式安装部署配置
 - [x] Zookeeper 伪分布式安装部署配置
 - [x] MySQL 主从复制部署配置
-- [ ] 项目部署
+- [x] 项目部署
 - [ ] 功能演示 `.gif`
   - [ ] 用户注册登录
   - [ ] 影片搜索
@@ -35,6 +35,7 @@
 - [Redis 伪分布式安装部署配置](https://github.com/daydreamdev/MeetingFilm/blob/master/note/Redis%20%E4%BC%AA%E5%88%86%E5%B8%83%E5%BC%8F%E5%AE%89%E8%A3%85%E9%83%A8%E7%BD%B2%E9%85%8D%E7%BD%AE.md) 
 - [Zookeeper 伪分布式安装部署配置](https://github.com/daydreamdev/MeetingFilm/blob/master/note/Zookeeper%20%E4%BC%AA%E5%88%86%E5%B8%83%E5%BC%8F%E5%AE%89%E8%A3%85%E9%83%A8%E7%BD%B2%E9%85%8D%E7%BD%AE.md) 
 - [MySQL 主从复制部署配置](https://github.com/daydreamdev/MeetingFilm/blob/master/note/MySQL%20%E4%B8%BB%E4%BB%8E%E5%A4%8D%E5%88%B6%E9%83%A8%E7%BD%B2%E9%85%8D%E7%BD%AE.md) 
+- [项目部署](https://github.com/daydreamdev/MeetingFilm/blob/master/note/%E9%A1%B9%E7%9B%AE%E9%83%A8%E7%BD%B2.md) 
 # 项目总结
 - [缓存穿透、缓存雪崩、缓存击穿](https://github.com/daydreamdev/MeetingFilm/blob/master/note/%E7%BC%93%E5%AD%98%E7%A9%BF%E9%80%8F%E3%80%81%E7%BC%93%E5%AD%98%E9%9B%AA%E5%B4%A9%E3%80%81%E7%BC%93%E5%AD%98%E5%87%BB%E7%A9%BF.md)
 - [缓存与数据库的一致性](https://github.com/daydreamdev/MeetingFilm/blob/master/note/%E7%BC%93%E5%AD%98%E4%B8%8E%E6%95%B0%E6%8D%AE%E5%BA%93%E7%9A%84%E4%B8%80%E8%87%B4%E6%80%A7.md)
