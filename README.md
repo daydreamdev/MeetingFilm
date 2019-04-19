@@ -1,4 +1,4 @@
-# Meeting 电影网
+# Meeting 电影购票平台
 
 ## 项目已经部署，在线 [Demo](http://www.meetingfilm.xyz)
 
