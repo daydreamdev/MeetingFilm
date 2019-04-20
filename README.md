@@ -11,9 +11,9 @@
 ## 项目演示
 ![首页](https://github.com/daydreamdev/MeetingFilm/raw/master/pic/demo/%E9%A6%96%E9%A1%B5-min.png)
 ![用户注册登录](https://github.com/daydreamdev/MeetingFilm/raw/master/pic/demo/%E7%94%A8%E6%88%B7%E6%B3%A8%E5%86%8C%E7%99%BB%E5%BD%95-min.png)
-![](https://github.com/daydreamdev/MeetingFilm/raw/master/pic/demo/%E5%BD%B1%E7%89%87%E8%AF%A6%E6%83%85-min.png)
-![](https://github.com/daydreamdev/MeetingFilm/raw/master/pic/demo/%E5%BD%B1%E9%99%A2%E5%A4%9A%E7%BB%B4%E5%BA%A6%E6%90%9C%E7%B4%A2-
-  ![](https://github.com/daydreamdev/MeetingFilm/raw/master/pic/demo/%E5%BD%B1%E9%99%A2%E5%9C%A8%E7%BA%BF%E7%94%B5%E5%BD%B1-min.png)
+![影片详情](https://github.com/daydreamdev/MeetingFilm/raw/master/pic/demo/%E5%BD%B1%E7%89%87%E8%AF%A6%E6%83%85-min.png)
+![影院多维度搜索](https://github.com/daydreamdev/MeetingFilm/raw/master/pic/demo/%E5%BD%B1%E9%99%A2%E5%A4%9A%E7%BB%B4%E5%BA%A6%E6%90%9C%E7%B4%A2-min.png)
+![影院在线电影](https://github.com/daydreamdev/MeetingFilm/raw/master/pic/demo/%E5%BD%B1%E9%99%A2%E5%9C%A8%E7%BA%BF%E7%94%B5%E5%BD%B1-min.png)
 ![在线选座购票](https://github.com/daydreamdev/MeetingFilm/raw/master/pic/demo/%E5%9C%A8%E7%BA%BF%E9%80%89%E5%BA%A7%E8%B4%AD%E7%A5%A8-min.png)
 ![我的订单](https://github.com/daydreamdev/MeetingFilm/raw/master/pic/demo/%E6%88%91%E7%9A%84%E8%AE%A2%E5%8D%95-min.png)
 ![当面付二维码](https://github.com/daydreamdev/MeetingFilm/raw/master/pic/demo/%E5%BD%93%E9%9D%A2%E4%BB%98%E4%BA%8C%E7%BB%B4%E7%A0%81.png)
