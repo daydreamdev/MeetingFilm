@@ -1,32 +1,36 @@
 # Meeting 电影购票平台
-
 ## 项目已经部署，在线 [Demo](http://119.3.214.253:5000)
-
 ## 基于微服务架构的在线电影购票平台
-
 - 用户模块：用户注册、登录、退出、信息修改
 - 影院模块：影院列表查询，特定电影场次查询
 - 电影模块：影片信息，影片多条件查询
 - 订单模块：在线选座，订单生成、订单查询、超时关单、应用限流、服务降级
 - 支付模块：支付宝沙箱 SDK 集成、二维码生成、扫码支付、TCC 分布式事务
-
-## 项目演示
-
-- 用户登录注册
-- 电影搜索
-- 在线选座
-- 订单生成
-- 支付宝沙箱扫码支付
-- 订单查看
-# 项目演示
-# 架构图
+## 架构图
 ![架构图](https://github.com/daydreamdev/MeetingFilm/blob/master/pic/%E6%9E%B6%E6%9E%84%E5%9B%BE.png)
-# 项目部署
+## 项目演示
+- 首页
+  ![](https://github.com/daydreamdev/MeetingFilm/raw/master/pic/demo/%E9%A6%96%E9%A1%B5-min.png)
+- 用户注册登录
+  ![](https://github.com/daydreamdev/MeetingFilm/raw/master/pic/demo/%E7%94%A8%E6%88%B7%E6%B3%A8%E5%86%8C%E7%99%BB%E5%BD%95-min.png)
+- 影片详情
+  ![](https://github.com/daydreamdev/MeetingFilm/raw/master/pic/demo/%E5%BD%B1%E7%89%87%E8%AF%A6%E6%83%85-min.png)
+- 影院多维度搜索
+  ![](https://github.com/daydreamdev/MeetingFilm/raw/master/pic/demo/%E5%BD%B1%E9%99%A2%E5%A4%9A%E7%BB%B4%E5%BA%A6%E6%90%9C%E7%B4%A2-min.png)
+- 影院在线电影
+  ![](https://github.com/daydreamdev/MeetingFilm/raw/master/pic/demo/%E5%BD%B1%E9%99%A2%E5%9C%A8%E7%BA%BF%E7%94%B5%E5%BD%B1-min.png)
+- 在线选座购票
+  ![](https://github.com/daydreamdev/MeetingFilm/raw/master/pic/demo/%E5%9C%A8%E7%BA%BF%E9%80%89%E5%BA%A7%E8%B4%AD%E7%A5%A8-min.png)
+- 我的订单
+  ![](https://github.com/daydreamdev/MeetingFilm/raw/master/pic/demo/%E6%88%91%E7%9A%84%E8%AE%A2%E5%8D%95-min.png)
+- 当面付二维码
+  ![](https://github.com/daydreamdev/MeetingFilm/raw/master/pic/demo/%E5%BD%93%E9%9D%A2%E4%BB%98%E4%BA%8C%E7%BB%B4%E7%A0%81.png)
+## 项目部署
 - [Redis 伪分布式安装部署配置](https://github.com/daydreamdev/MeetingFilm/blob/master/note/Redis%20%E4%BC%AA%E5%88%86%E5%B8%83%E5%BC%8F%E5%AE%89%E8%A3%85%E9%83%A8%E7%BD%B2%E9%85%8D%E7%BD%AE.md) 
 - [Zookeeper 伪分布式安装部署配置](https://github.com/daydreamdev/MeetingFilm/blob/master/note/Zookeeper%20%E4%BC%AA%E5%88%86%E5%B8%83%E5%BC%8F%E5%AE%89%E8%A3%85%E9%83%A8%E7%BD%B2%E9%85%8D%E7%BD%AE.md) 
 - [MySQL 主从复制部署配置](https://github.com/daydreamdev/MeetingFilm/blob/master/note/MySQL%20%E4%B8%BB%E4%BB%8E%E5%A4%8D%E5%88%B6%E9%83%A8%E7%BD%B2%E9%85%8D%E7%BD%AE.md) 
 - [项目部署](https://github.com/daydreamdev/MeetingFilm/blob/master/note/%E9%A1%B9%E7%9B%AE%E9%83%A8%E7%BD%B2.md) 
-# 项目总结
+## 项目总结
 - [缓存穿透、缓存雪崩、缓存击穿](https://github.com/daydreamdev/MeetingFilm/blob/master/note/%E7%BC%93%E5%AD%98%E7%A9%BF%E9%80%8F%E3%80%81%E7%BC%93%E5%AD%98%E9%9B%AA%E5%B4%A9%E3%80%81%E7%BC%93%E5%AD%98%E5%87%BB%E7%A9%BF.md)
 - [缓存与数据库的一致性](https://github.com/daydreamdev/MeetingFilm/blob/master/note/%E7%BC%93%E5%AD%98%E4%B8%8E%E6%95%B0%E6%8D%AE%E5%BA%93%E7%9A%84%E4%B8%80%E8%87%B4%E6%80%A7.md)
 - [限流算法](https://github.com/daydreamdev/MeetingFilm/blob/master/note/%E9%99%90%E6%B5%81%E7%AE%97%E6%B3%95.md)
