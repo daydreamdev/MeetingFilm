@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.stylefeng.guns.rest.common.persistence.dao.MoocCinemaTMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.stylefeng.guns.rest.common.persistence.model.MoocCinemaT">
+        <id column="UUID" property="uuid" />
+        <result column="cinema_name" property="cinemaName" />
+        <result column="cinema_phone" property="cinemaPhone" />
+        <result column="brand_id" property="brandId" />
+        <result column="area_id" property="areaId" />
+        <result column="hall_ids" property="hallIds" />
+        <result column="img_address" property="imgAddress" />
+        <result column="cinema_address" property="cinemaAddress" />
+        <result column="minimum_price" property="minimumPrice" />
+    </resultMap>
+
+</mapper>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.stylefeng.guns.rest.common.persistence.dao.MoocFieldTMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.stylefeng.guns.rest.common.persistence.model.MoocFieldT">
+        <id column="UUID" property="uuid" />
+        <result column="cinema_id" property="cinemaId" />
+        <result column="film_id" property="filmId" />
+        <result column="begin_time" property="beginTime" />
+        <result column="end_time" property="endTime" />
+        <result column="hall_id" property="hallId" />
+        <result column="hall_name" property="hallName" />
+        <result column="price" property="price" />
+    </resultMap>
+
+    <!-- 一对多的查询 -->
+    <resultMap id="getFilmInfoMap" type="com.stylefeng.guns.api.cinema.vo.FilmInfoVO">
+        <result column="film_id" property="filmId"></result>
+        <result column="film_name" property="filmName"></result>
+        <result column="film_length" property="filmLength"></result>
+        <result column="film_language" property="filmType"></result>
+        <result column="film_cats" property="filmCats"></result>
+        <result column="actors" property="actors"></result>
+        <result column="img_address" property="imgAddress"></result>
+        <collection property="filmFields" ofType="com.stylefeng.guns.api.cinema.vo.FilmFieldVO">
+            <result column="UUID" property="fieldId"></result>
+            <result column="begin_time" property="beginTime"></result>
+            <result column="end_time" property="endTime"></result>
+            <result column="film_language" property="language"></result>
+            <result column="hall_name" property="hallName"></result>
+            <result column="price" property="price"></result>
+        </collection>
+    </resultMap>
+
+    <select id="getFilmInfos" parameterType="java.lang.Integer" resultMap="getFilmInfoMap">
+        SELECT
+          info.film_id,
+          info.`film_name`,
+          info.`film_length`,
+          info.`film_language`,
+          info.`film_cats`,
+          info.`actors`,
+          info.`img_address`,
+          f.`UUID`,
+          f.`begin_time`,
+          f.`end_time`,
+          f.`hall_name`,
+          f.`price`
+        FROM
+          mooc_hall_film_info_t info
+        LEFT JOIN
+          mooc_field_t f
+        ON f.`film_id` = info.`film_id`
+        AND f.`cinema_id` = ${cinemaId}
+    </select>
+
+    <select id="getHallInfo" parameterType="java.lang.Integer" resultType="com.stylefeng.guns.api.cinema.vo.HallInfoVO">
+        SELECT
+          f.`UUID` AS hallFieldId,
+          f.`hall_name` AS hallName,
+          f.`price` AS price,
+          hall.`seat_address` AS seatFile
+        FROM
+          mooc_hall_dict_t hall,
+          mooc_field_t f
+        WHERE f.`hall_id` = hall.`UUID`
+          AND f.`UUID` = 1
+    </select>
+
+    <select id="getFilmInfoById" parameterType="java.lang.Integer" resultType="com.stylefeng.guns.api.cinema.vo.FilmInfoVO">
+        SELECT
+          f.`film_id` AS filmId,
+          info.`film_name` AS filmName,
+          info.`film_length` AS filmLength,
+          info.`film_language` AS filmType,
+          info.`film_cats` AS filmCats,
+          info.`actors` AS actors,
+          info.`img_address` AS imgAddress
+        FROM
+          mooc_field_t f,
+          mooc_hall_film_info_t info
+        WHERE f.`film_id` = info.`film_id`
+          AND f.`UUID` = ${fieldId}
+    </select>
+
+</mapper>

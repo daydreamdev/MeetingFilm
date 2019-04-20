@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.stylefeng.guns.rest.common.persistence.dao.MoocUserTMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.stylefeng.guns.rest.common.persistence.model.MoocUserT">
+        <id column="UUID" property="uuid" />
+        <result column="user_name" property="userName" />
+        <result column="user_pwd" property="userPwd" />
+        <result column="nick_name" property="nickName" />
+        <result column="user_sex" property="userSex" />
+        <result column="birthday" property="birthday" />
+        <result column="email" property="email" />
+        <result column="user_phone" property="userPhone" />
+        <result column="address" property="address" />
+        <result column="head_url" property="headUrl" />
+        <result column="life_state" property="lifeState" />
+        <result column="biography" property="biography" />
+        <result column="begin_time" property="beginTime" />
+        <result column="update_time" property="updateTime" />
+    </resultMap>
+
+</mapper>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.stylefeng.guns.rest.common.persistence.dao.MoocFilmTMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.stylefeng.guns.rest.common.persistence.model.MoocFilmT">
+        <id column="UUID" property="uuid" />
+        <result column="film_name" property="filmName" />
+        <result column="film_type" property="filmType" />
+        <result column="img_address" property="imgAddress" />
+        <result column="film_score" property="filmScore" />
+        <result column="film_preSaleNum" property="filmPresalenum" />
+        <result column="film_box_office" property="filmBoxOffice" />
+        <result column="film_cats" property="filmCats" />
+        <result column="film_area" property="filmArea" />
+        <result column="film_date" property="filmDate" />
+        <result column="film_time" property="filmTime" />
+        <result column="film_status" property="filmStatus" />
+        <result column="film_source" property="filmSource" />
+    </resultMap>
+
+
+    <select id="getFilmDetailByName" parameterType="java.lang.String" resultType="com.stylefeng.guns.api.film.vo.FilmDetailVO">
+          SELECT
+                film.uuid AS filmId,
+                film.film_name AS filmName,
+                info.`film_en_name` AS filmEnName,
+                film.`img_address` AS imgAddress,
+                info.`film_score` AS score,
+                info.`film_score_num` AS scoreNum,
+                film.`film_box_office` AS totalBox,
+                (SELECT GROUP_CONCAT(show_name SEPARATOR ',') FROM mooc_cat_dict_t t
+                  WHERE FIND_IN_SET (t.uuid,
+                    (SELECT REPLACE(TRIM(BOTH '#' FROM film_cats),'#',',') FROM mooc_film_t t WHERE t.uuid=film.uuid))) AS info01,
+                CONCAT((SELECT show_name FROM mooc_source_dict_t t WHERE t.uuid=film.uuid),' / ',info.`film_length`,'分钟') info02,
+                CONCAT(film.`film_time`,(SELECT show_name FROM mooc_source_dict_t t WHERE t.uuid=film.uuid),'上映') info03
+          FROM mooc_film_t film,mooc_film_info_t info
+          WHERE film.`UUID` = info.`film_id`
+          AND film.film_name LIKE #{filmName}
+    </select>
+
+    <select id="getFilmDetailById" parameterType="java.lang.String" resultType="com.stylefeng.guns.api.film.vo.FilmDetailVO">
+      SELECT
+            film.uuid AS filmId,
+            film.film_name AS filmName,
+            info.`film_en_name` AS filmEnName,
+            film.`img_address` AS imgAddress,
+            info.`film_score` AS score,
+            info.`film_score_num` AS scoreNum,
+            film.`film_box_office` AS totalBox,
+            (SELECT GROUP_CONCAT(show_name SEPARATOR ',') FROM mooc_cat_dict_t t
+              WHERE FIND_IN_SET (t.uuid,
+                (SELECT REPLACE(TRIM(BOTH '#' FROM film_cats),'#',',') FROM mooc_film_t t WHERE t.uuid=film.uuid))) AS info01,
+            CONCAT((SELECT show_name FROM mooc_source_dict_t t WHERE t.uuid=film.uuid),' / ',info.`film_length`,'分钟') info02,
+            CONCAT(film.`film_time`,(SELECT show_name FROM mooc_source_dict_t t WHERE t.uuid=film.uuid),'上映') info03
+      FROM mooc_film_t film,mooc_film_info_t info
+      WHERE film.`UUID` = info.`film_id`
+      AND film.`UUID` = #{uuid}
+    </select>
+
+</mapper>
