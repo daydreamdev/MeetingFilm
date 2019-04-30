@@ -20,7 +20,7 @@ public class DefaultFilmAsyncServiceImpl implements FilmAsyncServiceApi {
     @Autowired
     private MoocActorTMapper moocActorTMapper;
 
-    private MoocFilmInfoT getFilmInfo(String filmId){
+    private MoocFilmInfoT getFilmInfo(String filmId) {
 
         MoocFilmInfoT moocFilmInfoT = new MoocFilmInfoT();
         moocFilmInfoT.setFilmId(filmId);
@@ -81,9 +81,6 @@ public class DefaultFilmAsyncServiceImpl implements FilmAsyncServiceApi {
     public List<ActorVO> getActors(String filmId) {
 
         List<ActorVO> actors = moocActorTMapper.getActors(filmId);
-
         return actors;
     }
-
-
 }

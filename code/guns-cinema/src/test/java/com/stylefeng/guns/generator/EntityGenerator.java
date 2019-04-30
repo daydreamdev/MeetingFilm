@@ -29,7 +29,7 @@ public class EntityGenerator {
 
         // 全局配置
         GlobalConfig gc = new GlobalConfig();
-        gc.setOutputDir("F:\\workSpace\\meeting_workspace\\meeting_film\\meeting_film_backend\\guns\\guns-cinema\\src\\main\\java");//这里写你自己的java目录
+        gc.setOutputDir("G:\\BaiduNetdiskDownload\\应用Dubbo框架打造仿猫眼项目\\MeetingFilm\\guns-cinema\\src\\main\\java");//这里写你自己的java目录
         gc.setFileOverride(true);//是否覆盖
         gc.setActiveRecord(true);
         gc.setEnableCache(false);// XML 二级缓存
@@ -50,8 +50,8 @@ public class EntityGenerator {
         });
         dsc.setDriverName("com.mysql.jdbc.Driver");
         dsc.setUsername("root");
-        dsc.setPassword("");
-        dsc.setUrl("jdbc:mysql://127.0.0.1:3306/guns_rest?autoReconnect=true&useUnicode=true&characterEncoding=utf8&serverTimezone=GMT%2B8");
+        dsc.setPassword("123456789qwER#");
+        dsc.setUrl("jdbc:mysql://119.3.214.253:3306/guns_rest?autoReconnect=true&useUnicode=true&characterEncoding=utf8&serverTimezone=GMT%2B8");
         mpg.setDataSource(dsc);
 
         // 策略配置
@@ -60,7 +60,7 @@ public class EntityGenerator {
         strategy.setNaming(NamingStrategy.underline_to_camel);// 表名生成策略
 //        strategy.setInclude(new String[]{"mooc_banner_t","mooc_cat_dict_t","mooc_area_dict_t","mooc_year_dict_t","mooc_film_t","mooc_film_info_t","mooc_actor_t"});
 //        strategy.setInclude(new String[]{"mooc_source_dict_t"});
-        strategy.setInclude(new String[]{"mooc_brand_dict_t","mooc_area_dict_t","mooc_hall_dict_t","mooc_cinema_t","mooc_field_t","mooc_hall_film_info_t"});
+        strategy.setInclude(new String[]{"mooc_hall_film_info_t"});
         mpg.setStrategy(strategy);
 
         // 包配置

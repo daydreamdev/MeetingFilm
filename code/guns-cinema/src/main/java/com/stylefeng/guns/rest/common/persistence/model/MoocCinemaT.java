@@ -13,7 +13,7 @@ import java.io.Serializable;
  * </p>
  *
  * @author jiangzh
- * @since 2018-09-15
+ * @since 2019-04-30
  */
 @TableName("mooc_cinema_t")
 public class MoocCinemaT extends Model<MoocCinemaT> {
@@ -25,6 +25,8 @@ public class MoocCinemaT extends Model<MoocCinemaT> {
      */
     @TableId(value = "UUID", type = IdType.AUTO)
     private Integer uuid;
+    @TableField("cinema_id")
+    private Integer cinemaId;
     /**
      * 影院名称
      */
@@ -73,6 +75,14 @@ public class MoocCinemaT extends Model<MoocCinemaT> {
 
     public void setUuid(Integer uuid) {
         this.uuid = uuid;
+    }
+
+    public Integer getCinemaId() {
+        return cinemaId;
+    }
+
+    public void setCinemaId(Integer cinemaId) {
+        this.cinemaId = cinemaId;
     }
 
     public String getCinemaName() {
@@ -148,6 +158,7 @@ public class MoocCinemaT extends Model<MoocCinemaT> {
     public String toString() {
         return "MoocCinemaT{" +
         "uuid=" + uuid +
+        ", cinemaId=" + cinemaId +
         ", cinemaName=" + cinemaName +
         ", cinemaPhone=" + cinemaPhone +
         ", brandId=" + brandId +

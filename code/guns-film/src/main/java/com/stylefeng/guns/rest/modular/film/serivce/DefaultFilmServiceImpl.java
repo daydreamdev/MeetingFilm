@@ -51,7 +51,6 @@ public class DefaultFilmServiceImpl implements FilmServiceApi {
             bannerVO.setBannerAddress(moocBannerT.getBannerAddress());
             result.add(bannerVO);
         }
-
         return result;
     }
 
@@ -72,7 +71,6 @@ public class DefaultFilmServiceImpl implements FilmServiceApi {
             // 将转换的对象放入结果集
             filmInfos.add(filmInfo);
         }
-
         return filmInfos;
     }
 
@@ -140,7 +138,6 @@ public class DefaultFilmServiceImpl implements FilmServiceApi {
             filmVO.setTotalPage(totalPages);
             filmVO.setNowPage(nowPage);
         }
-
         return filmVO;
     }
 
@@ -271,13 +268,18 @@ public class DefaultFilmServiceImpl implements FilmServiceApi {
     }
 
 
+    /**
+     * 票房排行榜
+     *
+     * @return
+     */
     @Override
     public List<FilmInfo> getBoxRanking() {
         // 条件 -> 正在上映的，票房前10名
         EntityWrapper<MoocFilmT> entityWrapper = new EntityWrapper<>();
         entityWrapper.eq("film_status", "1");
 
-        Page<MoocFilmT> page = new Page<>(1, 10, "film_box_office");
+        Page<MoocFilmT> page = new Page<>(1, 10, "film_box_office", false);
 
         List<MoocFilmT> moocFilms = moocFilmTMapper.selectPage(page, entityWrapper);
 
@@ -292,7 +294,7 @@ public class DefaultFilmServiceImpl implements FilmServiceApi {
         EntityWrapper<MoocFilmT> entityWrapper = new EntityWrapper<>();
         entityWrapper.eq("film_status", "2");
 
-        Page<MoocFilmT> page = new Page<>(1, 10, "film_preSaleNum");
+        Page<MoocFilmT> page = new Page<>(1, 10, "film_preSaleNum", false);
 
         List<MoocFilmT> moocFilms = moocFilmTMapper.selectPage(page, entityWrapper);
 
@@ -308,7 +310,7 @@ public class DefaultFilmServiceImpl implements FilmServiceApi {
         EntityWrapper<MoocFilmT> entityWrapper = new EntityWrapper<>();
         entityWrapper.eq("film_status", "1");
 
-        Page<MoocFilmT> page = new Page<>(1, 10, "film_score");
+        Page<MoocFilmT> page = new Page<>(1, 10, "film_score", false);
 
         List<MoocFilmT> moocFilms = moocFilmTMapper.selectPage(page, entityWrapper);
 

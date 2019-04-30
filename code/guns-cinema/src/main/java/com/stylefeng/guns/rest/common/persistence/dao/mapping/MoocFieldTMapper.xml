@@ -52,7 +52,7 @@
         LEFT JOIN
           mooc_field_t f
         ON f.`film_id` = info.`film_id`
-        AND f.`cinema_id` = ${cinemaId}
+        WHERE f.`cinema_id` = ${cinemaId}
     </select>
 
     <select id="getHallInfo" parameterType="java.lang.Integer" resultType="com.stylefeng.guns.api.cinema.vo.HallInfoVO">

@@ -5,6 +5,7 @@
     <!-- 通用查询映射结果 -->
     <resultMap id="BaseResultMap" type="com.stylefeng.guns.rest.common.persistence.model.MoocCinemaT">
         <id column="UUID" property="uuid" />
+        <result column="cinema_id" property="cinemaId" />
         <result column="cinema_name" property="cinemaName" />
         <result column="cinema_phone" property="cinemaPhone" />
         <result column="brand_id" property="brandId" />

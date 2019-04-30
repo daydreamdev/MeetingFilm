@@ -9,7 +9,7 @@ import com.baomidou.mybatisplus.mapper.BaseMapper;
  * </p>
  *
  * @author jiangzh
- * @since 2018-09-15
+ * @since 2019-04-30
  */
 public interface MoocCinemaTMapper extends BaseMapper<MoocCinemaT> {
 

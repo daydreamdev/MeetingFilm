@@ -13,7 +13,7 @@ import java.io.Serializable;
  * </p>
  *
  * @author jiangzh
- * @since 2018-09-15
+ * @since 2019-04-30
  */
 @TableName("mooc_hall_film_info_t")
 public class MoocHallFilmInfoT extends Model<MoocHallFilmInfoT> {

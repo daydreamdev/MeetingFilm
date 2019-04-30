@@ -10,6 +10,7 @@ public class FilmInfoVO implements Serializable {
 
     private String filmId;
     private String filmName;
+    private String cinemaId;
     private String filmLength;
     private String filmType;
     private String filmCats;

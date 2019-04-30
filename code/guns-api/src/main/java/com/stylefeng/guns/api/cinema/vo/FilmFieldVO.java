@@ -7,6 +7,7 @@ import java.io.Serializable;
 @Data
 public class FilmFieldVO implements Serializable {
 
+    private String cinemaId;
     private String fieldId;
     private String beginTime;
     private String endTime;

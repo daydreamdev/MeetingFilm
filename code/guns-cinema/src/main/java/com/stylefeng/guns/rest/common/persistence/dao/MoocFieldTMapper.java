@@ -1,6 +1,5 @@
 package com.stylefeng.guns.rest.common.persistence.dao;
 
-import com.stylefeng.guns.api.cinema.vo.FilmFieldVO;
 import com.stylefeng.guns.api.cinema.vo.FilmInfoVO;
 import com.stylefeng.guns.api.cinema.vo.HallInfoVO;
 import com.stylefeng.guns.rest.common.persistence.model.MoocFieldT;
