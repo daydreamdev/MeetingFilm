@@ -9,14 +9,14 @@
 ## 架构图
 ![架构图](https://github.com/daydreamdev/MeetingFilm/blob/master/pic/%E6%9E%B6%E6%9E%84%E5%9B%BE.png)
 ## 项目演示
-- [首页](https://github.com/daydreamdev/MeetingFilm/raw/master/pic/demo/1.png)
-- [用户注册登录](https://github.com/daydreamdev/MeetingFilm/raw/master/pic/demo/2.png)
-- [影片详情](https://github.com/daydreamdev/MeetingFilm/raw/master/pic/demo/3.png)
-- [影院多维度搜索](https://github.com/daydreamdev/MeetingFilm/raw/master/pic/demo/4.png)
-- [影院在线电影](https://github.com/daydreamdev/MeetingFilm/raw/master/pic/demo/5.png)
-- [在线选座购票](https://github.com/daydreamdev/MeetingFilm/raw/master/pic/demo/6.png)
-- [扫码支付](https://github.com/daydreamdev/MeetingFilm/raw/master/pic/demo/7.png)
-- [我的订单](https://github.com/daydreamdev/MeetingFilm/raw/master/pic/demo/8.png)
+[首页](https://github.com/daydreamdev/MeetingFilm/raw/master/pic/demo/1.png)
+[用户注册登录](https://github.com/daydreamdev/MeetingFilm/raw/master/pic/demo/2.png)
+[影片详情](https://github.com/daydreamdev/MeetingFilm/raw/master/pic/demo/3.png)
+[影院多维度搜索](https://github.com/daydreamdev/MeetingFilm/raw/master/pic/demo/4.png)
+[影院在线电影](https://github.com/daydreamdev/MeetingFilm/raw/master/pic/demo/5.png)
+[在线选座购票](https://github.com/daydreamdev/MeetingFilm/raw/master/pic/demo/6.png)
+[扫码支付](https://github.com/daydreamdev/MeetingFilm/raw/master/pic/demo/7.png)
+[我的订单](https://github.com/daydreamdev/MeetingFilm/raw/master/pic/demo/8.png)
 ## 项目部署
 - [Redis 伪分布式安装部署配置](https://github.com/daydreamdev/MeetingFilm/blob/master/note/Redis%20%E4%BC%AA%E5%88%86%E5%B8%83%E5%BC%8F%E5%AE%89%E8%A3%85%E9%83%A8%E7%BD%B2%E9%85%8D%E7%BD%AE.md) 
 - [Zookeeper 伪分布式安装部署配置](https://github.com/daydreamdev/MeetingFilm/blob/master/note/Zookeeper%20%E4%BC%AA%E5%88%86%E5%B8%83%E5%BC%8F%E5%AE%89%E8%A3%85%E9%83%A8%E7%BD%B2%E9%85%8D%E7%BD%AE.md) 
