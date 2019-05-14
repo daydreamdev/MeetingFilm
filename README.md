@@ -9,7 +9,7 @@
 ## 架构图
 ![架构图](https://github.com/daydreamdev/MeetingFilm/blob/master/pic/%E6%9E%B6%E6%9E%84%E5%9B%BE.png)
 ## 项目演示
-![首页](https://github.com/daydreamdev/MeetingFilm/raw/master/pic/demo/1.png)
+- [首页](https://github.com/daydreamdev/MeetingFilm/raw/master/pic/demo/1.png)
 ![用户注册登录](https://github.com/daydreamdev/MeetingFilm/raw/master/pic/demo/2.png)
 ![影片详情](https://github.com/daydreamdev/MeetingFilm/raw/master/pic/demo/3.png)
 ![影院多维度搜索](https://github.com/daydreamdev/MeetingFilm/raw/master/pic/demo/4.png)
