@@ -7,7 +7,7 @@
 - 订单模块：在线选座，订单生成、订单查询、超时关单、应用限流、服务降级
 - 支付模块：支付宝沙箱 SDK 集成、二维码生成、扫码支付、TCC 分布式事务
 ## 架构图
-![架构图](https://github.com/daydreamdev/MeetingFilm/blob/master/pic/%E6%9E%B6%E6%9E%84%E5%9B%BE.png)
+![架构图](https://github.com/daydreamdev/MeetingFilm/blob/master/pic/%E9%A1%B9%E7%9B%AE%E6%9E%B6%E6%9E%84%E5%9B%BE.png)
 ## 项目演示
 - 首页![首页](https://github.com/daydreamdev/MeetingFilm/raw/master/pic/demo/1.png)
 - 用户注册登录![用户注册登录](https://github.com/daydreamdev/MeetingFilm/raw/master/pic/demo/2.png)
